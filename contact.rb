@@ -15,7 +15,7 @@ module Jekyll
 
     def render(context)
       %(<div class="contact-form-container">
-          <div class="alert">
+          <div class="alert" id="alert-box">
             Your message was sent! I'll get back to you soon. Thanks!
           </div>
           <form action="http://pooleapp.com/stash/#{@id}/" method="POST">
