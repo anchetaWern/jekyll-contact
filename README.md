@@ -24,3 +24,7 @@ To use the plugin in any of your pages, simply use the `contact` liquid tag then
 ```
 {% contact YOUR_POOLE_APP_API_KEY http://YOURSITE.COM/PAGE?form=ok#alert-box %}
 ```
+
+###Demo
+
+You can try out the demo on my [blog](http://wern-ancheta.com/aboutme).
