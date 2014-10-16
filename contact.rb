@@ -18,7 +18,7 @@ module Jekyll
           <div class="alert" id="alert-box">
             Your message was sent! I'll get back to you soon. Thanks!
           </div>
-          <form action="http://pooleapp.com/stash/#{@id}/" method="POST">
+          <form action="http://pooleapp.com/stash/#{@id}/" id="contact-form" method="POST">
             <input type="hidden" name="redirect_to" value="#{@redirect}">
             <div class="form-group">
               <label for="name">Name</label>
