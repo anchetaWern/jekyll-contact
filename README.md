@@ -1,7 +1,7 @@
 ##Contact Plugin for Jekyll
 
 This plugin allows you to add a contact form to any page in your Octopress or Jekyll blog.
-This uses [pooleapp.com](http://pooleapp.com/) for the back-end. 
+You can use either [pooleapp.com](http://pooleapp.com/) or [formkeep](https://formkeep.com) for processing form submissions.
 
 ###How to Use
 
@@ -19,10 +19,22 @@ Lastly, under the `source/_includes/custom` directory, add a script tag that poi
 <script src="{{ root_url }}/javascripts/contact.js"></script>
 ```
 
-To use the plugin in any of your pages, simply use the `contact` liquid tag then supply your poole app API key as the first argument, and the URL to redirect to when the form is submitted:
+To use the plugin in any of your pages, simply use the `contact` liquid tag then supply the form endpoint which you got from either pooleapp or formkeep as the first argument and the URL to redirect to when the form is submitted:
 
 ```
-{% contact YOUR_POOLE_APP_API_KEY http://YOURSITE.COM/PAGE?form=ok#alert-box %}
+{% contact FORM_ENDPOINT http://YOURSITE.COM/PAGE?form=ok#alert-box %}
+```
+
+For pooleapp, the endpoint URL would look something like:
+
+```
+http://pooleapp.com/stash/xxxx-xxx-xx-xxxxxxx-xx
+```
+
+For formkeep:
+
+```
+https://formkeep.com/f/xxxxxxxx
 ```
 
 ###Demo
