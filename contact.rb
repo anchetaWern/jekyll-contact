@@ -9,7 +9,7 @@ module Jekyll
     def initialize(name, options, tokens)
       super
       args = options.split(' ')
-      @id = args[0]
+      @action = args[0]
       @redirect = args[1]
     end
 
@@ -18,7 +18,8 @@ module Jekyll
           <div class="alert" id="alert-box">
             Your message was sent! I'll get back to you soon. Thanks!
           </div>
-          <form action="http://pooleapp.com/stash/#{@id}/" id="contact-form" method="POST">
+          <form accept-charset="UTF-8" action="#{@action}" id="contact-form" method="POST">
+            <input type="hidden" name="utf8" value="x">
             <input type="hidden" name="redirect_to" value="#{@redirect}">
             <div class="form-group">
               <label for="name">Name</label>
