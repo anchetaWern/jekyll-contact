@@ -1,3 +1,5 @@
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=wernancheta&url=https://github.com/anchetaWern/jekyll-contact&title=jekyll-contact&language=ruby&tags=github&category=software)
+
 ##Contact Plugin for Jekyll
 
 This plugin allows you to add a contact form to any page in your Octopress or Jekyll blog.
