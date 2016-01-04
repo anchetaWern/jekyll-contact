@@ -39,6 +39,12 @@ For formkeep:
 https://formkeep.com/f/xxxxxxxx
 ```
 
+
+###Updates
+
+- 01.01.2016 - Turns out formkeep is no longer free so you'll have to pay before you can use their service. I am yet to try whether the code still works for formkeep if you have paid. 
+
+
 ###Demo
 
 You can try out the demo on my [blog](http://wern-ancheta.com/aboutme).
